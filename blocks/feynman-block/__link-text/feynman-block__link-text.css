@@ -1,0 +1,18 @@
+.feynman-block__link-text {
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal; 
+  text-decoration: none;
+  color: #2f80ed;
+  opacity: 1;
+  transition: opacity 0.2s ease-in-out 0.05s;
+}
+
+.feynman-block__link-text:hover {
+  opacity: 0.6;
+}
+
+.feynman-block__link-text::after {
+  content: "\2192";
+  margin-left: 10px;
+}

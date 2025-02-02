@@ -1,0 +1,12 @@
+.video__iframe {
+    width: 515px;
+    height: 316px;
+    position: relative;
+}
+
+.video__content {
+    width: 515px;
+    height: 316px;
+    position: absolute;
+    top: 50px;
+}
